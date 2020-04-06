@@ -41,4 +41,7 @@ public class DeptServlet extends HttpServlet {
         ApplicationContext ctx = WebApplicationContextUtils.getWebApplicationContext(sc);
         deptServiceI = ctx.getBean(DeptServiceI.class);
     }
+
+
+
 }
